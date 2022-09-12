@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* 1,2=altura e cor da página . 3-grid para organizar a pagina */
+    height: 100vh;
+    background-color: #76045d;
+    display: grid;
+    grid-template-areas: "header" "main" "footer";
+    grid-template-rows: 100px 1fr 100px;
+}
+
+header {
+    /*  */
+    grid-area: header;
+    background-color: aliceblue;
+}
+
+main {
+    grid-area: main;
+    background-color: black;
+}
+
+footer {
+    grid-area: footer;
+    background-color: chartreuse;
+}
