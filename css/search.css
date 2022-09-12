@@ -1,0 +1,6 @@
+.search {
+    /* girando a lupa. deg=de graus. */
+    color: #fff;
+    font-size: 2rem;
+    transform: rotate(90deg);
+}

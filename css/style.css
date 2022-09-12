@@ -6,6 +6,8 @@
 
 body {
     /* 1,2=altura e cor da página . 3-grid para organizar a pagina */
+    /* grid template rows para organizar em linhas (100px 1fr 100px é o tamanho que defenimos pra cada um na ordem =header,main,footer */
+    /*  */
     height: 100vh;
     background-color: #76045d;
     display: grid;
@@ -16,12 +18,16 @@ body {
 header {
     /*  */
     grid-area: header;
-    background-color: aliceblue;
+    /* background-color: aliceblue;  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
 }
 
 main {
     grid-area: main;
-    background-color: black;
+    background-color: cyan;
 }
 
 footer {
